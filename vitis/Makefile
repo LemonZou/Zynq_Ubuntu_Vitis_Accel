@@ -25,7 +25,7 @@ clean:
 	-$(RM) $(HOST_EXE) $(XCLBIN) 
 
 cleanall: clean	
-	rm -rf all_* *.log *.xclbin *.compile_summary *.link_summary *.info *.xo
+	rm -rf all_* *.log *.xclbin *.compile_summary *.link_summary *.info *.xo .ipcache .Xil
 
 # kernel rules
 %.$(TARGET).xo: %.cpp
