@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader] fsbl.elf
+	system.bit
+	u-boot-xlnx_rebase_v2022.01/u-boot.elf
+}
